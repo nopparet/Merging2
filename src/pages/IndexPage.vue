@@ -74,6 +74,7 @@ export default {
     const id = ref("66044101341")
     const name = ref("นพรัตน์")
     const surname = ref("ทะนันท์")
+    const language = ref(ภาษาไทย)
     const age = ref(null)
     const accept = ref(false)
 
@@ -81,6 +82,7 @@ export default {
       id,
       name,
       surname,
+      language,
       age,
       accept,
 
@@ -107,6 +109,7 @@ export default {
         name.value = null
         age.value = null
         accept.value = false
+        language.value = null
       }
     }
   }
