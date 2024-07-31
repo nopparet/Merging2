@@ -14,7 +14,7 @@
         lazy-rules
         :rules="[ val => val && val.length > 0 || 'Please type your id']"
       />
-    >
+    
       <q-input
         filled
         v-model="name"
@@ -23,7 +23,7 @@
         lazy-rules
         :rules="[ val => val && val.length > 0 || 'Please type your name']"
       />
-    >  
+      
       <q-input
         filled
         v-model="surname"
